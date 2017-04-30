@@ -37,7 +37,7 @@ function convertLikesToCardFormat(views) {
   return views;
 }
 
-// fetch function that work accross platform
+// fetch function that works accross all platforms
 function crossBrowserFetch(url, JSONparsing = true, optionObj = { method: 'GET' }) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
@@ -58,7 +58,7 @@ function crossBrowserFetch(url, JSONparsing = true, optionObj = { method: 'GET' 
         reject(JSON.parse(req.response));
       }
     };
-    req.send(optionObj.body);
+    req.send();
   });
 }
 

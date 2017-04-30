@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ArticleCard from '../article-card/ArticleCard.jsx';
-import {
-  convertTimeToCardFormat,
-  convertLikesToCardFormat,
-  crossBrowserFetch,
-} from '../../helperFunctions';
+// import ArticleCard from '../article-card/ArticleCard.jsx';
+// import {
+//   convertTimeToCardFormat,
+//   convertLikesToCardFormat,
+//   crossBrowserFetch,
+// } from '../../helperFunctions';
 
 class Topics extends Component {
   constructor() {
