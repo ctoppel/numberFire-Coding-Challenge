@@ -11,6 +11,7 @@ const Summary = () => (
           WARRIORS
         </div>
       </div>
+
       <div className="score-plus">
         <div className="score gsw">
           96
@@ -30,6 +31,7 @@ const Summary = () => (
           81
         </div>
       </div>
+
       <div className="team okc">
         <div className="team-city">
           OKLAHOMA CITY
@@ -38,14 +40,18 @@ const Summary = () => (
           THUNDER
         </div>
       </div>
+      
     </header>
+
     <div id="alert-bar">
       LAST PLAY: TV TIMEOUT. GO GET A SNACK.
     </div>
+
     <main>
       <header>
         SHOW: <span>RECENT SHOTS</span><span> &or;</span>
       </header>
+
       <section>
         <div className="stats gsw">
           <div className="fg">
@@ -73,7 +79,9 @@ const Summary = () => (
             </div>
           </div>
         </div>
+
         <div id="shot-chart" />
+
         <div className="stats okc">
           <div className="fg">
             <div>
@@ -103,6 +111,7 @@ const Summary = () => (
       </section>
 
     </main>
+
   </div>
 );
 
