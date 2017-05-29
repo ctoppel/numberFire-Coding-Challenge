@@ -7,13 +7,19 @@
   }
 
   #left-col {
-    // float: left;
     width: 760px;
     margin-right: 13px;
+
+    @media (max-width: 1100px) {
+      margin-bottom: 0px;
+    }
   }
 
   #right-col {
-    // float: left;
     width: 326px;
+
+    @media (max-width: 760px) {
+      margin-bottom: 0px;
+    }
   }
 }

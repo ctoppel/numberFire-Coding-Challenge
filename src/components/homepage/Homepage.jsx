@@ -12,9 +12,11 @@ const Homepage = () => (
         <Plays />
         <Stats />
       </div>
+
       <div id="right-col">
         <Scoring />
       </div>
+
     </div>
   </div>
 );
