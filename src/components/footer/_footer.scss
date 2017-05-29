@@ -1,0 +1,128 @@
+#footer {
+  display: block;
+
+  @media (max-width: 760px) {
+    display: none;
+  }
+
+  .card-2 {
+    height: 101px;
+    background-color: #4f5961;
+
+    header {
+      height: 26px;
+      background-color: #2d363b;
+      padding: 0 13px;
+      color: white;
+
+      .sport-option {
+        float: left;
+        height: 26px;
+        width: 150px;
+        border-right: 1px solid #7b8389;
+        padding-left: 13px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        line-height: 26px;
+        opacity: .25;
+      }
+
+      .selected-sport {
+        background-color: #71ab3e;
+        border: none;
+        font-weight: 500;
+        opacity: 1;
+      }
+    }
+
+    #footer-games {
+      .arrow-left, .arrow-right {
+        width: 13px;
+        height: 75px;
+        line-height: 75px;
+        text-align: center;
+        color: #a7acb0;
+      }
+
+      .arrow-left {
+        float: left;
+      }
+
+      .arrow-right {
+        float: right;
+      }
+
+      .game-option {
+        font-size: 14px;
+        font-weight: 100;
+        opacity: .5;
+        color: white;
+        float: left;
+        height: 75px;
+        width: 108px;
+        border-right: 1px solid #7b8389;
+        padding: 13px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+
+        .team-scores-container {
+          display: inline-flex;
+
+          .teams {
+            padding-right: 25px;
+          }
+
+          .scores {
+            font-weight: 500;
+          }
+        }
+
+        .team-stats-container {
+          display: inline-flex;
+          font-size: 11px;
+
+          .team {
+            margin: 2px 20px 0 30px;
+          }
+
+          .top-player {
+            .name {
+              font-size: 14px;
+              font-weight: 500;
+            }
+
+            .stats {
+
+            }
+          }
+        }
+
+        .info {
+          font-size: 11px;
+          margin-top: 8px;
+
+          .time {
+
+          }
+
+          .station {
+            display: none;
+          }
+        }
+      }
+
+      .selected-game {
+        background-color: #616a71;
+        width: 559px;
+        border: none;
+        opacity: 1;
+
+        .station {
+          display: block;
+        }
+      }
+    }
+  }
+}
